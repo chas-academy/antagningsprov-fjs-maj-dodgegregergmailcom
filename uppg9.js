@@ -15,7 +15,7 @@ function uppg9 (){
 }
 }
 // anropa funktionen och skicka med en array som argument
-sort(4, 7, 12, 15, 20, 23)
+sort([4, 7, 12, 15, 20, 23])
 }
 
 module.exports = { uppg9 };

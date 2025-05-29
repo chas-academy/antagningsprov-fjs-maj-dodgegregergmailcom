@@ -8,7 +8,7 @@ function uppg4() {
     // tilldela age 25
     Age: 25};
     // skriv ut med dotnotation åldern i konsolen
-    console.log(person.age)
+    console.log(person.Age)
 
 }
 

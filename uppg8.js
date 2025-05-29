@@ -17,7 +17,7 @@ function ageCheck(personArray){
 // skapa ett konditionsvillkor som gör att det bara är namnet på personerna som är över 30 år som skrivs ut i konsolen
 for (let person of people){
     if (person.Age > 30){
-        console.log(person.name);
+        console.log(person.Name);
     }
   }
 }

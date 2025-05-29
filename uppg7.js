@@ -8,7 +8,7 @@ function uppg7() {
     return a + b;
     // kalla på funktionen i en return statement och ge den parametrarna 5 och 10
     } 
-    console.log(makeSum(5, 10));
+    return (makeSum(5, 10));
 }
 
 module.exports = { uppg7 };
