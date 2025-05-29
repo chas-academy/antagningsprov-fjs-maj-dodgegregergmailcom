@@ -8,10 +8,11 @@ function uppg9 (){
         // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
     for (let number of numbers){
         if (number % 2 === 0){
-            return [number, "jämnt"];
+            title = "jämnt";
         } else {
-            return [number, "udda"];
+            title = "udda";
         }
+        console.log(number, title)
 }
 }
 // anropa funktionen och skicka med en array som argument
